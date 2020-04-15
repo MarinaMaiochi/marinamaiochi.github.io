@@ -1,0 +1,59 @@
+html{
+    display: flex;
+    justify-content: center;
+}
+body{
+    width: 70%;
+    background-color: black;             /* #d1e9e3 verdinho marina */
+    font-family: 'Baloo Paaji 2', cursive;
+}
+h1{
+    color: white;
+    
+}
+
+a{
+    color: rgb(0, 0, 0);
+    
+}
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+   
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: rgb(255, 166, 0);
+}
+.jogo1{
+    background: linear-gradient(90deg,   #fd4e2a 0%, #fcb000  100%);
+}
+.jogo2{
+    background: linear-gradient(90deg, #fd4e2a  0%, #ff3200 100%);
+}
+.jogo3{
+    background: linear-gradient(90deg, #c62a63 0%, #ff008a 100%);
+}
+.jogo4{
+    background: linear-gradient(90deg,#c62a63  0%, #a600ff 100%);
+}
+.jogo5{
+    background: linear-gradient(90deg, #853ab4 0%, #0053ff 100%);
+}
+.jogo6{
+    background: linear-gradient(90deg, #853ab4  0%,  #00ffef 100%);
+}
+
+
+.listajogos{
+    padding: 10px;
+}
+
+p{
+    color: white;
+   
+}
